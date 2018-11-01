@@ -5,7 +5,7 @@
 
 #### What is this lab?
 
-After writing our Monument magazine website, it is now time to refactor our code for use with a modern front-end framewokr
+After writing our Monument magazine website, it is now time to refactor our code for use with a modern front-end framework
 
 **The objective of this lab is to:**
 
@@ -14,13 +14,12 @@ After writing our Monument magazine website, it is now time to refactor our code
 * Create reusable, robust codebase that will serve as a boilerplate for other work
 * Continually grow the *Monument* brand until you are sick of light-blue branding styles
 
-**You will be working in groups of 2 for this lab.**
 
 ## Refactor!
 
 **To refactor your Monument project, first ensure you have either:**
 
-  A) Your working version of a static Monument site (not the Django version)
+  A) Your working version of a static Monument site
   
 **-or-**
 
