@@ -38,28 +38,27 @@ Remember our Monument magazine website from the first week? Today we're going to
 **Suggested components for `index.html`:**
    
     - NavBar
-    - Index
-      - Hero/Header
+    - Landing
+      - Header
       - Archive
         - Article
         - Article
         - Article
       - About
-      - VisualGuide/Gallery
+      - Gallery
       - Contact
     - Footer
 
 **Suggested components for `blog.html`:**
    
-    - Header
-      - Nav
-    - Main
+    - NavBar
+    - Blog
+      - Header
       - PostsList
         - Post
         - Post
         - Post
-      - About
-      - Issues
+      - Sidebar
       - Comment
     - Footer
 
