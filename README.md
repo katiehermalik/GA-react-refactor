@@ -54,10 +54,7 @@ Remember our Monument magazine website from the first week? Today we're going to
     - NavBar
     - Blog
       - Header
-      - PostsList
-        - Post
-        - Post
-        - Post
+      - Article
       - Sidebar
       - Comment
     - Footer
