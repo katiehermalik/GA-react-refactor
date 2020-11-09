@@ -5,7 +5,7 @@
 
 #### What is this lab?
 
-Remember our Monument magazine website from the first week? Today we're going to modernize that project. It is now time to refactor our code for use with a modern front-end framework: React!
+Today we're going to modernize Monument, a static magazine website. It is now time to refactor some code for use with a modern front-end library: React!
 
 **The objective of this lab is to:**
 
