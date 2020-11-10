@@ -7,6 +7,7 @@ import Gallery from '../components/Gallery';
 import Contact from '../components/Contact';
 import articles from '../SeedData/articleData';
 
+
 const articlesComponents = articles.map((a, index) => {
   return <Articles id={index} article={a} />
 });
@@ -17,7 +18,7 @@ const Landing = (props) => {
       <Header />
       <section>
         <h2>From the Archive</h2>
-        <div class="grid-wrapper articles">
+        <div className="grid-wrapper articles">
           {articlesComponents}
         </div>
       </section>

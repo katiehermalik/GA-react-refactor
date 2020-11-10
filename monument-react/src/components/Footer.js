@@ -7,8 +7,8 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 const Footer = () => {
   return(
     <footer>
-      <div class="wrap">
-        <div class="social-links">
+      <div className="wrap">
+        <div className="social-links">
           <a href="/"><FontAwesomeIcon icon={faFacebookSquare} /></a>
           <a href="/"><FontAwesomeIcon icon={faTwitterSquare} /></a>
           <a href="/"><FontAwesomeIcon icon={faInstagram} /></a>
@@ -16,7 +16,7 @@ const Footer = () => {
         <input type="text" placeholder="Email Address"/>
         <button type="submit">Subscribe</button>
       </div>
-      <p class="copyright">&copy;2016 Sarah Holden</p>
+      <p className="copyright">&copy;2016 Sarah Holden</p>
     </footer>
   )
 };
