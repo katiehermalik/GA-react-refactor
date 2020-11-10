@@ -11,7 +11,7 @@ import {Helmet} from "react-helmet";
 
 
 const articlesComponents = articles.map((a, index) => {
-  return <Articles id={index} article={a} />
+  return <Articles key={index} article={a} />
 });
 
 const Landing = (props) => {

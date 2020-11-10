@@ -5,7 +5,7 @@ import articles from '../SeedData/articleData';
 
 const galleryTagline = 'A visual guide to' 
 const galleryImages = images.map((image, index) => {
-  return <img src={image.image} alt={index}/>
+  return <img src={image.image} alt={articles[0].issueTopic} key={index}/>
 });
 
 const Gallery = () => {
