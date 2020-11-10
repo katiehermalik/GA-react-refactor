@@ -4,6 +4,7 @@ import './Landing.css';
 import Articles from '../components/Articles';
 import About from '../components/About';
 import Gallery from '../components/Gallery';
+import Contact from '../components/Contact';
 import articles from '../SeedData/articleData';
 
 const articlesComponents = articles.map((a, index) => {
@@ -22,7 +23,7 @@ const Landing = (props) => {
       </section>
       <About />
       <Gallery />
-
+      <Contact />
     </>
   )
 };
