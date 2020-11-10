@@ -1,0 +1,24 @@
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
+import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+
+const Footer = () => {
+  return(
+    <footer>
+      <div class="wrap">
+        <div class="social-links">
+          <a href="/"><FontAwesomeIcon icon={faFacebookSquare} /></a>
+          <a href="/"><FontAwesomeIcon icon={faTwitterSquare} /></a>
+          <a href="/"><FontAwesomeIcon icon={faInstagram} /></a>
+        </div>
+        <input type="text" placeholder="Email Address"/>
+        <button type="submit">Subscribe</button>
+      </div>
+      <p class="copyright">&copy;2016 Sarah Holden</p>
+    </footer>
+  )
+};
+
+export default Footer;
