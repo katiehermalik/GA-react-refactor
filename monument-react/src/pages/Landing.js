@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../components/LandingHeader';
 import './Landing.css';
 import Articles from '../components/Articles';
+import About from '../components/About';
+import Gallery from '../components/Gallery';
 import articles from '../SeedData/articleData';
 
 const articlesComponents = articles.map((a, index) => {
@@ -10,7 +12,7 @@ const articlesComponents = articles.map((a, index) => {
 
 const Landing = (props) => {
   return(
-    <div>
+    <>
       <Header />
       <section>
         <h2>From the Archive</h2>
@@ -18,7 +20,10 @@ const Landing = (props) => {
           {articlesComponents}
         </div>
       </section>
-    </div>
+      <About />
+      <Gallery />
+
+    </>
   )
 };
 
