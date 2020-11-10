@@ -7,6 +7,8 @@ import Gallery from '../components/Gallery';
 import Contact from '../components/Contact';
 import articles from '../SeedData/articleData';
 
+import {Helmet} from "react-helmet";
+
 
 const articlesComponents = articles.map((a, index) => {
   return <Articles id={index} article={a} />
@@ -15,6 +17,9 @@ const articlesComponents = articles.map((a, index) => {
 const Landing = (props) => {
   return(
     <>
+      <Helmet>
+        <title>Monument | Home</title>
+      </Helmet>
       <Header />
       <section>
         <h2>From the Archive</h2>
