@@ -11,10 +11,10 @@ const galleryImages = images.map((image, index) => {
 const Gallery = () => {
   return (
     <section id="gallery">
-      <div class="wrap">
+      <div className="wrap">
         <h2>{articles[0].issue}</h2>
         <h3>{galleryTagline} {articles[0].issueTopic}</h3>
-        <div class="masonry">
+        <div className="masonry">
           {galleryImages}
         </div>
       </div>
