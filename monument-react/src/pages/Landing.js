@@ -1,0 +1,25 @@
+import React from 'react';
+import Header from '../components/LandingHeader';
+import './Landing.css';
+import Articles from '../components/Articles';
+import articles from '../SeedData/articleData';
+
+const articlesComponents = articles.map((a, index) => {
+  return <Articles id={index} article={a} />
+});
+
+const Landing = (props) => {
+  return(
+    <div>
+      <Header />
+      <section>
+        <h2>From the Archive</h2>
+        <div class="grid-wrapper articles">
+          {articlesComponents}
+        </div>
+      </section>
+    </div>
+  )
+};
+
+export default Landing;
