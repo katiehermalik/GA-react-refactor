@@ -5,6 +5,7 @@ const postComponents = posts.map((post, index) => {
 		<div key={index}>
 			<h3> {post.date} </h3>
 			<h2> {post.title} </h2>
+			{/* assuming each blog post follows the same image/paragraph pattern */}
 			{post.content.map((content, index) => {
 				return (
 					<div key={index}>
