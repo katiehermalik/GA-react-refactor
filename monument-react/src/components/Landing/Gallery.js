@@ -1,6 +1,6 @@
-import React from 'react';
-import images from '../SeedData/galleryData';
-import articles from '../SeedData/articleData';
+
+import images from '../../SeedData/galleryData';
+import articles from '../../SeedData/articleData';
 
 
 const galleryTagline = 'A visual guide to' 
@@ -19,7 +19,7 @@ const Gallery = () => {
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 export default Gallery;

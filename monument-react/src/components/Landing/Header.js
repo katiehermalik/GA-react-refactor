@@ -1,6 +1,5 @@
-import React from 'react'
 
-const Header = (props) => {
+const Header = () => {
   return(
     <header className="vertical-center">
       <div>
@@ -8,7 +7,7 @@ const Header = (props) => {
         <h2>A Lifestyle Magazine</h2>
       </div>
     </header>
-  )
+  );
 };
 
 export default Header;

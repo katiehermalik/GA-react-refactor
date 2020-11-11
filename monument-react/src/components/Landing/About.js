@@ -1,7 +1,6 @@
-import React from 'react';
-import about from '../SeedData/aboutData'
+import about from '../../SeedData/aboutData';
 
-const About = (props) => {
+const About = () => {
   return (
     <section id="about" className="callout about">
       <article className="wrap">
@@ -11,7 +10,7 @@ const About = (props) => {
         <p>{about.contentTwo}</p>
       </article>
     </section>
-  )
+  );
 };
 
 export default About;

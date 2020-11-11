@@ -1,17 +1,18 @@
-import React from 'react';
-import Header from '../components/LandingHeader';
-import './Landing.css';
-import Articles from '../components/Articles';
-import About from '../components/About';
-import Gallery from '../components/Gallery';
-import Contact from '../components/Contact';
-import articles from '../SeedData/articleData';
 
 import {Helmet} from "react-helmet";
 
+import './Landing.css';
+import Header from '../components/Landing/Header';
+import Articles from '../components/Landing/Articles';
+import About from '../components/Landing/About';
+import Gallery from '../components/Landing/Gallery';
+import Contact from '../components/Landing/Contact';
+import articles from '../SeedData/articleData';
+import Footer from '../components/Landing/Footer'
 
-const articlesComponents = articles.map((a, index) => {
-  return <Articles key={index} article={a} />
+
+const articlesComponents = articles.map((article, index) => {
+  return <Articles key={index} article={article} />
 });
 
 const Landing = (props) => {
@@ -30,6 +31,7 @@ const Landing = (props) => {
       <About />
       <Gallery />
       <Contact />
+      <Footer />
     </>
   )
 };
